@@ -1,5 +1,11 @@
-# U-Net-Dervived-Pytorch
-Implementation of a semantic architectured derived from U-Net in Pytorch
+# U-Net-Pytorch
+Image segmentation of nuclei using Deep Convolution Neural network derived from U-net. Implemented in python using PyTorch.
+
+![alt text](test.png "Input")
+![alt text](Output_unet.png "Output")
+
+
+                   Input                                        Output
 
 ## Directory Tree
 
@@ -23,7 +29,7 @@ Implementation of a semantic architectured derived from U-Net in Pytorch
 
 2. **optimizer_checkpoints_unet**: Contains optimizer checkpoints corresponding to the ones in checkpoints_unet.(Quite useful when using momentum based optimizers for discontinuous training)
 
-3. **runs**: folder created by TensorBoardX.Can be used to view the training and validation loss. 
+3. **runs**: folder created by TensorBoardX. Can be used to view the training and validation loss. 
 
 ```sh
 
