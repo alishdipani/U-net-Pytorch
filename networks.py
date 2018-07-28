@@ -60,7 +60,7 @@ class unet(nn.Module):
 
         # 3 Channel input is concatenated
 
-        #Input Tensor Dimensions= 256x256x119
+        #Input Tensor Dimensions= 256x256x19
         #DeConvolution 3
         self.deconv3=nn.ConvTranspose2d(in_channels=19,out_channels=1,kernel_size=5,padding=2)
         nn.init.xavier_uniform(self.deconv3.weight)
