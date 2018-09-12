@@ -1,5 +1,5 @@
-# U-Net-Pytorch
-Semantic Image segmentation of nuclei using Deep Convolution Neural network derived from U-net. Implemented in python using PyTorch. [Detail Report](https://github.com/alishdipani/U-net-Pytorch/blob/master/CS_F266.pdf)
+# U-Net-Pytorch [[Detail Report]](https://github.com/alishdipani/U-net-Pytorch/blob/master/CS_F266.pdf)
+Semantic Image segmentation of nuclei using Deep Convolution Neural network derived from U-net. Implemented in python using PyTorch. 
 
 ![alt text](test.png "Input")
 ![alt text](Output_unet.png "Output")
